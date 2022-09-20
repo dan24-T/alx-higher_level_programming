@@ -31,3 +31,23 @@
 # demonstrates how to use a function, and an if...elif condition to affect
 # program output
 #
+# (C) 2022 Daniel Waweru, Nairobi, Kenya
+# email danielwaweru9632@gmail.com
+# -----------------------------------------------------------
+
+# Use `python3 -m py_compile file_name.py` or `python3 -m compileall
+# file_name.py` to compile source file
+# Bytecode is stored in a .pyc file in a folder named __pycache__ generated
+# after compilation
+# To view the .pyc file in non binary(human readable) form run
+# `python3 -m dis file_name.py` command
+# READ:https://towardsdatascience.com/understanding-python-bytecode-e7edaae8734d
+
+
+def magic_calculation(a, b, c):
+    if a < b:
+        return c
+    elif c > b:
+        return a + b
+    else:
+        return (a * b) - c
