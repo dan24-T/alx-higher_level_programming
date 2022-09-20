@@ -1,20 +1,5 @@
 #!/usr/bin/python3
-# -----------------------------------------------------------
-# Python program that:
-# demonstrates how to print the ASCII alphabet in lowercase except 'q' and 'e'
-# demonstrates how to use a loop, a loop clause and an if condition to
-# affect program output
-#
-# (C) 2022 Daniel Waweru, Nairobi, Kenya
-# email danielwaweru9632@gmail.com
-# -----------------------------------------------------------
-
-# For each ascii_code in range sequence
-for ascii_code in range(97, 123):
-
-    # If ascii_code match code for 'q' and 'e' skip it
-    if ascii_code == 101 or ascii_code == 113:
+for i in range(ord('a'), ord('z')+1):
+    if i == ord('e') or i == ord('q'):
         continue
-
-    # Print out the character format of the ascii_code
-    print("{:c}".format(ascii_code), end='')
+    print('{:c}'.format(i), end="")
