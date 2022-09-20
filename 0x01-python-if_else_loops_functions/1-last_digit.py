@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 # -----------------------------------------------------------
 # Python program that:
-# demonstrate how to print the last digit of a number stored in a variable
+# demonstrates how to determine if a number stored in a variable is
+# positive or negative
 # demonstrates how to use if...elif conditions to determine the program output
 #
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
+# (C) 2022 Daniel Waweru, Nairobi, Kenya
+# email danielwaweru9632@gmail.com
 # -----------------------------------------------------------
 
 # Generate random numbers and assign it to a variable named number
